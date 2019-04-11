@@ -1,0 +1,40 @@
+# Average
+#Write a function named average() that has two parameters named num1 and num2.
+#The function should return the average of these two numbers.
+def average(num1, num2):
+  return (num1+num2)/2
+print(average(1, 100))
+print(average(1, -1))
+
+#Tenth Power
+#Write a function named tenth_power() that has one parameter named num
+def tenth_power(num):
+  return num**10
+print(tenth_power(1))
+
+#Bond
+#Write a function named introduction() that has two parameters named first_name and last_name. 
+def introduction(first_name, last_name):
+  return last_name + ", " + first_name + " " + last_name
+print(introduction("James", "Bond"))
+
+#SquareRoot
+#Write a function named square_root() that has one parameter named num
+def square_root(num):
+  return num ** 0.5
+print(square_root(16))
+
+#Tip
+#This function should return the amount you should tip given a total and the percentage you want to tip.
+def tip(total,percentage):
+  return total * (percentage/100)
+ 
+#Win Percentage
+#This function should return out the total percentage of games won by a team based on these two numbers.
+def win_percentage(wins,losses):
+  percentage = wins/(wins+losses)*100
+  return percentage
+
+#DogYEar
+def dog_years(name, age):
+  return name+", you are "+str(age*7)+" years old in dog years"
