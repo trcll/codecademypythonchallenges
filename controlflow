@@ -1,0 +1,8 @@
+#In Range
+#The function should return True if num is greater than or equal to lower and less than or 
+#equal to upper. Otherwise, return False.
+def in_range(num, lower, upper):
+  if(num >= lower and num <= upper):
+    return True
+  return False
+print(in_range(10, 10, 10))
